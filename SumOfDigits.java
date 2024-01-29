@@ -2,9 +2,10 @@ import java.util.*;
 public class SumOfDigits {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
+        System.out.print("Enter the number : ");
         int num = sc.nextInt();
         int sum = SOD(num);
-        System.out.println(sum);
+        System.out.println("The sum of digits is : " +sum);
     }
     public static int SOD(int num){
         int sum = 0;
