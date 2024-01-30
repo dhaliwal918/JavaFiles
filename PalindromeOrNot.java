@@ -14,7 +14,7 @@ public class PalindromeOrNot{
     }
     public static boolean PNON(int num){
         int var = ROD(num);
-        return var==num;
+        return var==num;zz
     }
     public static int ROD(int num){
         if(num%10==0){
