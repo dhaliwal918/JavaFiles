@@ -7,7 +7,11 @@ public class ArmstrongNumber {
         System.out.print("Enter the number : ");
         int num = sc.nextInt();
         boolean AnOrNot = AON(num);
-        System.out.println("The number is Armstrong - " + AnOrNot);
+        if(AnOrNot){
+            System.out.println("The number is Armstrong Number");
+        }else{
+            System.out.println("The number is not a Armstrong Number");
+        }
     }
 
     public static boolean AON(int num) {
@@ -19,6 +23,7 @@ public class ArmstrongNumber {
             num = (int) num / 10;
 
         }
+        System.out.println("Their sum is : " + ans);
         if(ans==com){
             return true;
         }else{
@@ -31,6 +36,7 @@ public class ArmstrongNumber {
         for (int i = 1; i <= power; i++) {
             ans *= num;
         }
+        System.out.println("Pow of " + num + " : " + ans);
         return ans;
     }
 
@@ -42,6 +48,7 @@ public class ArmstrongNumber {
             num = (int) num / 10;
             Nod++;
         }
+        System.out.println("No. of digits is : "+ Nod);
         return Nod;
     }
 }
