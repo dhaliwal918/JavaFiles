@@ -1,4 +1,4 @@
-package Exercise_of_java_1;
+
 
 public class InfiniteDoWhileLoop {
     public static void main(String[] args){

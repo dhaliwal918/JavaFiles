@@ -1,4 +1,4 @@
-package Theory_examples;
+package Examples;
 public class DataTypes {
     public static void main(String[] args){
         // Creating and initializing custom character 
